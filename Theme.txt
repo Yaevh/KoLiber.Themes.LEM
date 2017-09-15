@@ -1,0 +1,5 @@
+Name: KoLiber LEM
+AntiForgery: enabled
+Author: Tomasz Malinowski
+Website: http://ekonomiadlamlodziezy.pl
+Description: Theme for LEM, adapted from site created by Damian Słoński
