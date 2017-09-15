@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: ./lem_dyplom_aktywnosc.pdf
+Disallow: ./lem_oferta_sponsorska.pdf

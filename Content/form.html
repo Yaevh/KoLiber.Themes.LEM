@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+    <title>Lekcje Ekonomii dla Młodzieży - Zgłoś swoją szkołę</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="ekonomia, edukacja, przedsiębiorczość">
+    <meta name="description" content="Projekt LEM ma na celu wprowadzenie uczniów szkół średnich w podstawowe zagadnienia związane z ekonomią (pieniądz, handel, system bankowy, inflacja).">
+    <meta name="theme-color" content="#1d485b">
+
+    <link rel="icon" sizes="192x192" href="images/high-favicon.png">
+    <link href="./favicon.ico" rel="Shortcut icon"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300i,400&amp;subset=latin-ext" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body data-spy="scroll" data-target="#navbar-example">
+   
+    <!-- NAGŁÓWEK -->
+    <header>
+        <div class="container">
+            <div class="row">
+
+                <a href="./index.html" class="openMobile"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+               
+                <div class="col-xs-10 col-sm-2 logo-wrapper">
+                    <a href="./index.html"><img src="images/logo.png" alt=""></a>
+                </div>
+                
+                <div class="col-sm-10">
+                    <nav id="navbar-example">
+                        <ul class="nav" role="tablist">
+                            <li><a href="./index.html"><i class="fa fa-chevron-left" aria-hidden="true"></i> Powrót</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div> <!-- .row -->
+        </div> <!-- .container -->
+    </header>
+    
+    <main>
+        <!-- SLIDER -->
+        
+        <section id="slider-form">
+            <div class="container-fluid overlay">
+                <div class="container">
+                    <h1>Zgłoś swoją szkołę</h1>
+                </div>
+            </div>
+        </section>
+
+        <section id="form">
+        
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-offset-2 col-md-8">
+
+                        <h3>Wypełnij formularz zgłoszeniowy</h3>
+
+
+
+                        <form id="notification-form" method="post" action="form.php">
+                            <label>Imię i nazwisko:</label>
+                            <input title="Imię i nazwisko" type="text" name="name" data-error="Podaj swoje imię i nazwisko!">
+
+                            <label>Adres email:</label>
+                            <input title="Adres email" type="email" name="email" data-error="Podaj swój adres email!">
+                            
+                            <label>Telefon kontaktowy:</label>
+                            <input title="Telefon kontaktowy" type="text" name="phone" data-error="Podaj kontaktowy numer telefonu!">
+
+                            <label>Jestem:</label><br>
+                            <input type="radio" name="person" value="Uczeń" id="person1"> <label for="person1"> uczniem</label>
+                            <input type="radio" name="person" value="Nauczyciel" id="person2"> <label for="person2"> nauczycielem</label>
+
+                            <br><br>
+                            <label>Szkoła:</label>
+                            <textarea title="Szkoła" name="school" cols="30" rows="2" data-error="Podaj informacje o swojej szkole!"></textarea>
+                            
+                            <label>Województwo:</label>
+                            <select title="Województwo" name="coordinator">
+                                <option value="dolnośląskie">dolnośląskie</option>
+                                <option value="kujawsko-pomorskie">kujawsko-pomorskie</option>
+                                <option value="lubelskie">lubelskie</option>
+                                <option value="lubuskie">lubuskie</option>
+                                <option value="łódzkie">łódzkie</option>
+                                <option value="małopolskie">małopolskie</option>
+                                <option value="mazowieckie">mazowieckie</option>
+                                <option value="opolskie">opolskie</option>
+                                <option value="podkarpackie">podkarpackie</option>
+                                <option value="podlaskie">podlaskie</option>
+                                <option value="pomorskie">pomorskie</option>
+                                <option value="śląskie">śląskie</option>
+                                <option value="świętokrzyskie">świętokrzyskie</option>
+                                <option value="warmińsko-mazurskie">warmińsko-mazurskie</option>
+                                <option value="wielkopolskie">wielkopolskie</option>
+                                <option value="zachodniopomorskie">zachodniopomorskie</option>
+                            </select>
+                            
+                            <label>Treść wiadomości:</label>
+                            <p>Podaj tutaj jak najwięcej dodatkowych informacji: preferowane dni i godziny, dla jakiej klasy lekcje mają być prowadzone itd.</p>
+                            <textarea name="content" cols="30" rows="5" placeholder="II klasa LO (profil mat-fiz) / pn, wt i czw (8:00, 12:30)" data-error="Wpisz treść wiadomości!"></textarea>
+                            <ul class="errors">
+                            </ul>
+                            <input class="btn btn-blue" type="submit" value="Prześlij">
+                            <input class="btn" type="reset" value="Resetuj">
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+                    
+        </section>       
+             
+    </main>
+    
+    <!--STOPKA -->
+    
+    <footer>
+    
+        <div class="container">
+            <h2>Copyright © 2013 - 2017 Lekcje Ekonomii dla Młodzieży</h2>
+            <h3>Stowarzyszenie KoLiber &amp; Instytut Misesa</h3>
+        </div>
+        
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="js/scripts.min.js" type="text/javascript" ></script>
+
+</body>
+</html>
